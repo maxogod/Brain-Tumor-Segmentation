@@ -3,6 +3,8 @@
 Application of deep learning techniques and models to the semantic segmentation of tumors in brain tissue
 based on RMI 3D volumes.
 
+> **`/notebooks` folder is just for testing, do not take them into account for the program itself.**
+
 ## How to setup environment
 
 - First install [miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install)
