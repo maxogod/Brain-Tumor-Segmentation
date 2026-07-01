@@ -1,4 +1,4 @@
-\documentclass[twocolumn]{article}
+ \documentclass[11pt,twocolumn]{article}
 \usepackage[spanish]{babel}
 \usepackage{graphicx} % Required for inserting images
 \usepackage{fancyhdr} % For custom headers/footers
@@ -18,11 +18,12 @@
 \usepackage{titlesec}
 \usepackage{booktabs}
 \usepackage[font=footnotesize]{caption}
+\usepackage{cuted}
 
 
 % Header
 \pagestyle{fancy}
-\fancyhead[L]{Trabajo Practico}
+\fancyhead[L]{Monografía}
 \fancyhead[R]{Aprendizaje Profundo - FIUBA}
 \renewcommand{\headrulewidth}{0.4pt}
 \fancyfoot[C]{\thepage}
@@ -41,11 +42,20 @@
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
 
 % Title font customization
-\titleformat{\section}{\bfseries\small}{\thesection}{1em}{}
+% Section hierarchy
+\titlespacing*{\section}
+{0pt}{1.2ex plus .2ex minus .2ex}{0.8ex}
 
-\titleformat{\subsection}{\bfseries\small}{\thesubsection}{1em}{}
+\titlespacing*{\subsection}
+{0pt}{1.0ex plus .2ex minus .2ex}{0.6ex}
 
-\titleformat{\subsubsection}{\bfseries\small}{\thesubsubsection}{1em}{}
+\titlespacing*{\subsubsection}
+{0pt}{0.8ex plus .2ex minus .2ex}{0.4ex}
+
+\captionsetup{
+    font={normalsize},
+    labelfont=bf
+}
 
 \begin{document}
 

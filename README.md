@@ -5,6 +5,8 @@ based on RMI 3D volumes.
 
 > **`/notebooks` folder is just for testing & exploratory analysis, they are not the program itself!**
 
+📝 **Read the [Monograph](./docs/monografia.pdf) for a detailed explanation on the work!**
+
 ## How to setup environment
 
 - First install [miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install)
