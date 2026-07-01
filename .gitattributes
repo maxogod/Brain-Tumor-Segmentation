@@ -1,3 +1,5 @@
 *.py text eol=lf
 *.yaml text eol=lf
 *.ipynb text eol=lf
+
+notebooks/** linguist-documentation
